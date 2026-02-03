@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Tests (internal use only)
+tests/
