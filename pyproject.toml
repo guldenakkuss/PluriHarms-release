@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pluriharms"
+version = "1.0.0"
+description = "PluriHarms: A Dataset for Pluralistic Harm Perception"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "PluriHarms Team"}
+]
+keywords = ["ai safety", "harm perception", "dataset", "values"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "bertopic",
+    "hdbscan",
+    "numpy",
+    "openai",
+    "pandas",
+    "rouge-score",
+    "scikit-learn",
+    "scipy",
+    "spacy",
+    "statsmodels",
+    "torch",
+    "tqdm",
+    "transformers",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "notebook",
+    "ipykernel",
+    "pytest",
+]
+
+[project.urls]
+Repository = "https://github.com/yourusername/PluriHarms-release"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.package-data]
+src = ["py.typed"]

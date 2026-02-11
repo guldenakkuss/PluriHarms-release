@@ -20,11 +20,17 @@ For full details on the methodology and findings, see our paper (accepted to ICL
 **PluriHarms: Benchmarking the Full Spectrum of Human Judgments on AI Harm**
 [arXiv:2601.08951](https://arxiv.org/pdf/2601.08951)
 
-## Requirements
+## Setup
 
-```
-pandas
-numpy
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then:
+
+```bash
+# Create virtual environment
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Install package with all dependencies
+uv pip install -e ".[dev]"
 ```
 
 ## Data Files
@@ -67,9 +73,7 @@ print(f"Std rating: {ratings.std():.1f}")
 The `data_loader` module provides functions to prepare the data for statistical analysis:
 
 ```python
-import sys
-sys.path.insert(0, 'src')
-import data_loader
+from src import data_loader
 
 # Prepare long-format data for regression/mixed-effects modeling
 df_long = data_loader.prepare_data_for_analysis()

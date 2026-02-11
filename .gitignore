@@ -4,3 +4,5 @@ __pycache__/
 
 # Tests (internal use only)
 tests/
+
+archive/
