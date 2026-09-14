@@ -1,0 +1,101 @@
+Participant_ID,Gender,Age,Political_Affiliation,Education,n_missing
+85,Man,25-34 years old,Moderate,High school diploma or GED,35
+73,Man,25-34 years old,Moderate,High school diploma or GED,33
+13,Woman,55-64 years old,Very liberal,"Some college, but no degree",29
+21,Woman,25-34 years old,Somewhat liberal,Bachelor’s degree,23
+96,Woman,55-64 years old,Very conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",20
+63,Woman,55-64 years old,Somewhat conservative,High school diploma or GED,12
+3,Man,25-34 years old,Somewhat liberal,High school diploma or GED,12
+16,Woman,45-54 years old,Moderate,"Some college, but no degree",11
+5,Woman,25-34 years old,Very liberal,Bachelor’s degree,10
+70,Man,35-44 years old,Somewhat liberal,Bachelor’s degree,8
+46,Woman,65 years old or above,Moderate,"Some college, but no degree",7
+66,Woman,45-54 years old,Somewhat liberal,Bachelor’s degree,7
+67,Woman,25-34 years old,Very conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",5
+18,Man,25-34 years old,Other,Associates or technical degree,5
+33,Woman,35-44 years old,Somewhat liberal,Bachelor’s degree,4
+29,Woman,45-54 years old,Moderate,Bachelor’s degree,4
+81,Woman,35-44 years old,Somewhat conservative,Bachelor’s degree,4
+38,Woman,45-54 years old,Very liberal,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",4
+6,Woman,25-34 years old,Somewhat conservative,Associates or technical degree,3
+19,Man,35-44 years old,Very liberal,"Some college, but no degree",3
+86,Woman,45-54 years old,Very liberal,Bachelor’s degree,3
+41,Woman,45-54 years old,Other,Bachelor’s degree,3
+56,Man,45-54 years old,Moderate,Bachelor’s degree,3
+91,Woman,45-54 years old,Somewhat conservative,"Some college, but no degree",3
+87,Woman,25-34 years old,Moderate,High school diploma or GED,3
+43,Woman,35-44 years old,Very conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",2
+1,Woman,45-54 years old,Somewhat liberal,Bachelor’s degree,2
+25,Woman,45-54 years old,Very conservative,Bachelor’s degree,2
+11,Man,35-44 years old,Somewhat liberal,Bachelor’s degree,2
+64,Woman,45-54 years old,Somewhat liberal,Bachelor’s degree,2
+39,Woman,65 years old or above,Somewhat liberal,High school diploma or GED,2
+69,Woman,45-54 years old,Somewhat conservative,High school diploma or GED,2
+82,Man,25-34 years old,Moderate,Bachelor’s degree,2
+49,Man,35-44 years old,Somewhat conservative,High school diploma or GED,2
+37,Man,45-54 years old,Very liberal,"Some college, but no degree",1
+42,Man,35-44 years old,Somewhat liberal,Associates or technical degree,1
+40,Man,55-64 years old,Somewhat liberal,Associates or technical degree,1
+35,Man,35-44 years old,Very liberal,"Some college, but no degree",0
+32,Man,25-34 years old,Very liberal,"Some college, but no degree",0
+34,Man,25-34 years old,Moderate,"Some college, but no degree",0
+28,Man,25-34 years old,Moderate,"Some college, but no degree",0
+30,Man,25-34 years old,Very conservative,Bachelor’s degree,0
+26,Woman,45-54 years old,Somewhat conservative,Bachelor’s degree,0
+31,Man,45-54 years old,Moderate,Bachelor’s degree,0
+20,Man,25-34 years old,Somewhat liberal,"Some college, but no degree",0
+22,Woman,65 years old or above,Moderate,Bachelor’s degree,0
+24,Man,55-64 years old,Very liberal,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+23,Man,35-44 years old,Somewhat conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+15,Man,55-64 years old,Somewhat liberal,Bachelor’s degree,0
+14,Woman,25-34 years old,Moderate,"Some college, but no degree",0
+12,Woman,35-44 years old,Somewhat conservative,Bachelor’s degree,0
+17,Man,25-34 years old,Moderate,Associates or technical degree,0
+4,Man,25-34 years old,Somewhat conservative,"Some college, but no degree",0
+8,Woman,25-34 years old,Very conservative,"Some college, but no degree",0
+9,Man,25-34 years old,Somewhat liberal,"Some college, but no degree",0
+10,Woman,25-34 years old,Somewhat conservative,Bachelor’s degree,0
+7,Woman,35-44 years old,Moderate,"Some college, but no degree",0
+2,Woman,45-54 years old,Somewhat liberal,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+0,Man,45-54 years old,Somewhat liberal,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+27,Man,35-44 years old,Very conservative,Bachelor’s degree,0
+51,Woman,45-54 years old,Somewhat conservative,Bachelor’s degree,0
+50,Man,18-24 years old,Moderate,High school diploma or GED,0
+48,Man,25-34 years old,Moderate,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+47,Man,35-44 years old,Somewhat conservative,Associates or technical degree,0
+44,Woman,35-44 years old,Somewhat liberal,High school diploma or GED,0
+52,Man,35-44 years old,Very liberal,Bachelor’s degree,0
+45,Man,35-44 years old,Moderate,Associates or technical degree,0
+36,Woman,45-54 years old,Somewhat liberal,Bachelor’s degree,0
+65,Woman,35-44 years old,Somewhat liberal,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+60,Woman,25-34 years old,Very conservative,Bachelor’s degree,0
+61,Woman,18-24 years old,Moderate,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+62,Woman,25-34 years old,Somewhat conservative,Bachelor’s degree,0
+55,Woman,18-24 years old,Somewhat conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+57,Man,35-44 years old,Somewhat conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+58,Woman,55-64 years old,Somewhat conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+59,Man,25-34 years old,Very liberal,High school diploma or GED,0
+53,Man,35-44 years old,Somewhat liberal,Bachelor’s degree,0
+54,Woman,45-54 years old,Very liberal,"Some college, but no degree",0
+76,Man,35-44 years old,Somewhat liberal,High school diploma or GED,0
+74,Man,25-34 years old,Very liberal,Associates or technical degree,0
+75,Man,25-34 years old,Somewhat liberal,Associates or technical degree,0
+72,Man,35-44 years old,Somewhat liberal,Bachelor’s degree,0
+71,Woman,25-34 years old,Moderate,Bachelor’s degree,0
+68,Man,45-54 years old,Very liberal,Bachelor’s degree,0
+83,Man,45-54 years old,Somewhat conservative,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+80,Man,45-54 years old,Moderate,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+78,Man,65 years old or above,Very liberal,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+79,Woman,55-64 years old,Somewhat liberal,High school diploma or GED,0
+77,Man,45-54 years old,Moderate,Associates or technical degree,0
+84,Man,25-34 years old,Somewhat conservative,Bachelor’s degree,0
+89,Woman,55-64 years old,Moderate,Bachelor’s degree,0
+88,Man,55-64 years old,Somewhat conservative,Bachelor’s degree,0
+90,Man,25-34 years old,Moderate,High school diploma or GED,0
+92,Woman,35-44 years old,Somewhat liberal,"Some college, but no degree",0
+94,Man,45-54 years old,Somewhat conservative,Bachelor’s degree,0
+93,Man,25-34 years old,Very liberal,"Some college, but no degree",0
+95,Man,35-44 years old,Moderate,"Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)",0
+97,Man,35-44 years old,Somewhat liberal,Bachelor’s degree,0
+98,Woman,25-34 years old,Somewhat conservative,Bachelor’s degree,0
+99,Woman,45-54 years old,Somewhat conservative,Bachelor’s degree,0

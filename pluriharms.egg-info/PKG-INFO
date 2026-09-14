@@ -68,10 +68,7 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then:
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Install package and dependencies
-uv pip install -e .
-
-# Or install with Jupyter for tutorials
+# Install package with all dependencies
 uv pip install -e ".[dev]"
 ```
 
