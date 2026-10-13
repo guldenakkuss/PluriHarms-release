@@ -1,0 +1,9 @@
+elfen
+polars
+spacy
+numpy
+pandas
+scipy>=1.11
+scikit-learn
+matplotlib
+ipykernel
