@@ -1,0 +1,547 @@
+{
+ "r2_ceiling": {
+  "prompt_only_individual": 0.41904627055276655,
+  "annotator_only_individual": 0.13828130107295222
+ },
+ "models": [
+  {
+   "model": "Model 1",
+   "features": "A",
+   "cv_r2_rowkfold": 0.303,
+   "cv_r2_grouped": 0.303,
+   "test_r2": 0.241,
+   "test_mae": 14.204,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 1",
+   "features": "B",
+   "cv_r2_rowkfold": -0.133,
+   "cv_r2_grouped": -0.133,
+   "test_r2": -0.429,
+   "test_mae": 21.002,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 1",
+   "features": "C",
+   "cv_r2_rowkfold": 0.09,
+   "cv_r2_grouped": 0.09,
+   "test_r2": 0.022,
+   "test_mae": 16.894,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 1",
+   "features": "A + B",
+   "cv_r2_rowkfold": 0.177,
+   "cv_r2_grouped": 0.177,
+   "test_r2": -0.014,
+   "test_mae": 17.306,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 1",
+   "features": "A + C",
+   "cv_r2_rowkfold": 0.324,
+   "cv_r2_grouped": 0.324,
+   "test_r2": 0.146,
+   "test_mae": 14.615,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 1",
+   "features": "B + C",
+   "cv_r2_rowkfold": 0.027,
+   "cv_r2_grouped": 0.027,
+   "test_r2": -0.256,
+   "test_mae": 18.939,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 1",
+   "features": "A + B + C",
+   "cv_r2_rowkfold": 0.233,
+   "cv_r2_grouped": 0.233,
+   "test_r2": 0.023,
+   "test_mae": 16.378,
+   "test_r2_avg": NaN
+  },
+  {
+   "model": "Model 3",
+   "features": "A",
+   "cv_r2_rowkfold": 0.242,
+   "cv_r2_grouped": 0.063,
+   "test_r2": 0.021,
+   "test_mae": 30.386,
+   "test_r2_avg": 0.062
+  },
+  {
+   "model": "Model 3",
+   "features": "B",
+   "cv_r2_rowkfold": 0.182,
+   "cv_r2_grouped": -0.466,
+   "test_r2": -0.329,
+   "test_mae": 36.264,
+   "test_r2_avg": -0.958
+  },
+  {
+   "model": "Model 3",
+   "features": "C",
+   "cv_r2_rowkfold": 0.414,
+   "cv_r2_grouped": -0.178,
+   "test_r2": -0.898,
+   "test_mae": 41.33,
+   "test_r2_avg": -2.598
+  },
+  {
+   "model": "Model 3",
+   "features": "A + B",
+   "cv_r2_rowkfold": 0.351,
+   "cv_r2_grouped": -0.373,
+   "test_r2": -0.544,
+   "test_mae": 36.644,
+   "test_r2_avg": -1.577
+  },
+  {
+   "model": "Model 3",
+   "features": "A + B + C",
+   "cv_r2_rowkfold": 0.435,
+   "cv_r2_grouped": -0.016,
+   "test_r2": -0.201,
+   "test_mae": 32.724,
+   "test_r2_avg": -0.585
+  },
+  {
+   "model": "Model 4",
+   "features": "D",
+   "cv_r2_rowkfold": 0.055,
+   "cv_r2_grouped": -0.595,
+   "test_r2": -0.088,
+   "test_mae": 34.453,
+   "test_r2_avg": -0.033
+  },
+  {
+   "model": "Model 4",
+   "features": "E",
+   "cv_r2_rowkfold": 0.003,
+   "cv_r2_grouped": -0.014,
+   "test_r2": -0.003,
+   "test_mae": 34.265,
+   "test_r2_avg": -0.009
+  },
+  {
+   "model": "Model 4",
+   "features": "D + E",
+   "cv_r2_rowkfold": 0.06,
+   "cv_r2_grouped": -0.76,
+   "test_r2": -0.157,
+   "test_mae": 35.437,
+   "test_r2_avg": -0.086
+  },
+  {
+   "model": "Base A+D+E",
+   "features": "A + D + E",
+   "cv_r2_rowkfold": 0.297,
+   "cv_r2_grouped": 0.121,
+   "test_r2": 0.09,
+   "test_mae": 28.803,
+   "test_r2_avg": 0.062
+  }
+ ],
+ "contested": {
+  "median_std": 29.60744554910344,
+  "n": 75
+ },
+ "annotator_level_tests": [
+  {
+   "feature": "Gender (Woman \u2212 Man)",
+   "subset": "All prompts",
+   "n_a": 52,
+   "n_b": 48,
+   "diff": 3.8660324329879145,
+   "cohens_d": 0.27697498035167434,
+   "rank_biserial": 0.14503205128205132,
+   "p": 0.21301004947303903,
+   "p_holm": 1.0,
+   "p_rating_level_original": 7.773956461358703e-11
+  },
+  {
+   "feature": "Gender (Woman \u2212 Man)",
+   "subset": "Contested",
+   "n_a": 52,
+   "n_b": 48,
+   "diff": 4.991925599751077,
+   "cohens_d": 0.28713009397230466,
+   "rank_biserial": 0.15184294871794868,
+   "p": 0.1922405833857198,
+   "p_holm": 1.0,
+   "p_rating_level_original": 3.8394669165923724e-10
+  },
+  {
+   "feature": "Education (High \u2212 Low)",
+   "subset": "All prompts",
+   "n_a": 43,
+   "n_b": 57,
+   "diff": -3.286293721243794,
+   "cohens_d": -0.2347753871834885,
+   "rank_biserial": -0.11791105671154634,
+   "p": 0.316061615385856,
+   "p_holm": 1.0,
+   "p_rating_level_original": 7.160550929776135e-07
+  },
+  {
+   "feature": "Education (High \u2212 Low)",
+   "subset": "Contested",
+   "n_a": 43,
+   "n_b": 57,
+   "diff": -3.6229615911460726,
+   "cohens_d": -0.20734052760605004,
+   "rank_biserial": -0.10526315789473684,
+   "p": 0.3709637004319336,
+   "p_holm": 1.0,
+   "p_rating_level_original": 3.638731672761739e-05
+  },
+  {
+   "feature": "Political (Conservative \u2212 Liberal)",
+   "subset": "All prompts",
+   "n_a": 42,
+   "n_b": 31,
+   "diff": 0.6253246926730327,
+   "cohens_d": 0.042811909679851656,
+   "rank_biserial": 0.018433179723502224,
+   "p": 0.8978787242620418,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.14949540259489857
+  },
+  {
+   "feature": "Political (Conservative \u2212 Liberal)",
+   "subset": "Contested",
+   "n_a": 42,
+   "n_b": 31,
+   "diff": 0.525444870455587,
+   "cohens_d": 0.028496019776128253,
+   "rank_biserial": -0.004608294930875556,
+   "p": 0.9777414766967262,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.17701996050849966
+  },
+  {
+   "feature": "Race/Ethnicity (Non-white \u2212 White)",
+   "subset": "All prompts",
+   "n_a": 64,
+   "n_b": 33,
+   "diff": -0.08898786488491339,
+   "cohens_d": -0.006385409756108128,
+   "rank_biserial": 0.0009469696969697239,
+   "p": 0.9969623366251278,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.2872314305247796
+  },
+  {
+   "feature": "Race/Ethnicity (Non-white \u2212 White)",
+   "subset": "Contested",
+   "n_a": 64,
+   "n_b": 33,
+   "diff": -2.150284433972004,
+   "cohens_d": -0.12396200928538463,
+   "rank_biserial": -0.05492424242424243,
+   "p": 0.6615136260578518,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.0026726758928893738
+  },
+  {
+   "feature": "Age (35+ \u2212 18\u201334)",
+   "subset": "All prompts",
+   "n_a": 35,
+   "n_b": 65,
+   "diff": -0.6753451438328923,
+   "cohens_d": -0.04793080360599124,
+   "rank_biserial": 0.012747252747252746,
+   "p": 0.9194126407733443,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.25692587583958126
+  },
+  {
+   "feature": "Age (35+ \u2212 18\u201334)",
+   "subset": "Contested",
+   "n_a": 35,
+   "n_b": 65,
+   "diff": -0.10398475202700297,
+   "cohens_d": -0.005919289906470122,
+   "rank_biserial": 0.0452747252747252,
+   "p": 0.7124541236156446,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.8614625678317286
+  },
+  {
+   "feature": "Factor 1 (Authority \u2212 Universalist)",
+   "subset": "All prompts",
+   "n_a": 50,
+   "n_b": 50,
+   "diff": -1.8134842620134748,
+   "cohens_d": -0.12894545496644277,
+   "rank_biserial": -0.05679999999999996,
+   "p": 0.6269570263068287,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.003457812120693229
+  },
+  {
+   "feature": "Factor 1 (Authority \u2212 Universalist)",
+   "subset": "Contested",
+   "n_a": 50,
+   "n_b": 50,
+   "diff": -4.155591679339324,
+   "cohens_d": -0.2382611127953495,
+   "rank_biserial": -0.12960000000000005,
+   "p": 0.2655558861077807,
+   "p_holm": 1.0,
+   "p_rating_level_original": 2.979061745969206e-06
+  },
+  {
+   "feature": "Factor 2 (High \u2212 Low empathy)",
+   "subset": "All prompts",
+   "n_a": 50,
+   "n_b": 50,
+   "diff": 0.6375876848562925,
+   "cohens_d": 0.04525082175505353,
+   "rank_biserial": 0.04960000000000009,
+   "p": 0.6715877488632371,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.9495508219932752
+  },
+  {
+   "feature": "Factor 2 (High \u2212 Low empathy)",
+   "subset": "Contested",
+   "n_a": 50,
+   "n_b": 50,
+   "diff": 1.1584007269867556,
+   "cohens_d": 0.06597782715904026,
+   "rank_biserial": 0.08319999999999994,
+   "p": 0.4755286822602719,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.4388960482450529
+  },
+  {
+   "feature": "Factor 3 (Tradition \u2212 Hedonism)",
+   "subset": "All prompts",
+   "n_a": 50,
+   "n_b": 50,
+   "diff": -0.2298326122544765,
+   "cohens_d": -0.016307956214069448,
+   "rank_biserial": -0.00880000000000003,
+   "p": 0.9422954352478662,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.8923943237231768
+  },
+  {
+   "feature": "Factor 3 (Tradition \u2212 Hedonism)",
+   "subset": "Contested",
+   "n_a": 50,
+   "n_b": 50,
+   "diff": -1.055611801664547,
+   "cohens_d": -0.06011772438149607,
+   "rank_biserial": -0.040000000000000036,
+   "p": 0.7329190679949796,
+   "p_holm": 1.0,
+   "p_rating_level_original": 0.7259600257609914
+  }
+ ],
+ "contested_interaction": [
+  {
+   "feature": "Gender (Woman \u2212 Man)",
+   "gap_all": 3.8660324329879145,
+   "gap_contested": 4.991925599751077,
+   "gap_uncontested": 2.7901799780320573,
+   "interaction_diff": 2.201745621719027,
+   "p_interaction": 0.1997750856899258,
+   "p_interaction_holm": 1.0
+  },
+  {
+   "feature": "Education (High \u2212 Low)",
+   "gap_all": -3.286293721243794,
+   "gap_contested": -3.6229615911460726,
+   "gap_uncontested": -3.103724257515829,
+   "interaction_diff": -0.5192373336302314,
+   "p_interaction": 0.7653600498571057,
+   "p_interaction_holm": 1.0
+  },
+  {
+   "feature": "Political (Conservative \u2212 Liberal)",
+   "gap_all": 0.6253246926730327,
+   "gap_contested": 0.525444870455587,
+   "gap_uncontested": 0.6229719001439946,
+   "interaction_diff": -0.09752702968840943,
+   "p_interaction": 0.9639076016356328,
+   "p_interaction_holm": 1.0
+  },
+  {
+   "feature": "Race/Ethnicity (Non-white \u2212 White)",
+   "gap_all": -0.08898786488491339,
+   "gap_contested": -2.150284433972004,
+   "gap_uncontested": 1.8588400279131108,
+   "interaction_diff": -4.009124461885115,
+   "p_interaction": 0.027377602681865253,
+   "p_interaction_holm": 0.19164321877305676
+  },
+  {
+   "feature": "Age (35+ \u2212 18\u201334)",
+   "gap_all": -0.6753451438328923,
+   "gap_contested": -0.10398475202700297,
+   "gap_uncontested": -1.2863198351118186,
+   "interaction_diff": 1.1823350830848245,
+   "p_interaction": 0.5122710472761448,
+   "p_interaction_holm": 1.0
+  },
+  {
+   "feature": "Factor 1 (Authority \u2212 Universalist)",
+   "gap_all": -1.8134842620134748,
+   "gap_contested": -4.155591679339324,
+   "gap_uncontested": 0.29427212354787713,
+   "interaction_diff": -4.449863802887175,
+   "p_interaction": 0.008576645252398452,
+   "p_interaction_holm": 0.06861316201918762
+  },
+  {
+   "feature": "Factor 2 (High \u2212 Low empathy)",
+   "gap_all": 0.6375876848562925,
+   "gap_contested": 1.1584007269867556,
+   "gap_uncontested": 0.2303244187985456,
+   "interaction_diff": 0.9280763081881993,
+   "p_interaction": 0.5898673166703526,
+   "p_interaction_holm": 1.0
+  },
+  {
+   "feature": "Factor 3 (Tradition \u2212 Hedonism)",
+   "gap_all": -0.2298326122544765,
+   "gap_contested": -1.055611801664547,
+   "gap_uncontested": 0.38862167309743256,
+   "interaction_diff": -1.4442334747619547,
+   "p_interaction": 0.4010736021000105,
+   "p_interaction_holm": 1.0
+  }
+ ],
+ "mixed_model": {
+  "main_effects": {
+   "woman": {
+    "beta": 4.432591239498537,
+    "se": 2.8443744522742387,
+    "p": 0.1191452787300882
+   },
+   "high_ed": {
+    "beta": -3.659967647121942,
+    "se": 2.9280278174128194,
+    "p": 0.21130792186515568
+   },
+   "nonwhite": {
+    "beta": -1.07667896272926,
+    "se": 2.9183971485755253,
+    "p": 0.7121812544760122
+   },
+   "F1": {
+    "beta": -0.3505177041740449,
+    "se": 0.4079912692041089,
+    "p": 0.39026857446433927
+   },
+   "converged": true,
+   "annotator_var": 189.76069773021007,
+   "residual_var": 638.1110342685023
+  },
+  "with_contested_interactions": {
+   "woman": {
+    "beta": 3.58330371805876,
+    "se": 2.296530270509237,
+    "p": 0.11868617117767528
+   },
+   "high_ed": {
+    "beta": -3.671655129730695,
+    "se": 2.3640666990870067,
+    "p": 0.12039690812644176
+   },
+   "nonwhite": {
+    "beta": 0.8190083941836811,
+    "se": 2.3563072095242115,
+    "p": 0.7281546294041499
+   },
+   "F1": {
+    "beta": 0.03157707008832999,
+    "se": 0.3294053028132038,
+    "p": 0.923631093894942
+   },
+   "woman:contested": {
+    "beta": 1.7188071787433319,
+    "se": 1.5952269369280727,
+    "p": 0.28127090302028535
+   },
+   "high_ed:contested": {
+    "beta": -0.03025311168342881,
+    "se": 1.6420495055118756,
+    "p": 0.9853006105433202
+   },
+   "nonwhite:contested": {
+    "beta": -3.8782718370380795,
+    "se": 1.636355776504492,
+    "p": 0.01778489114639889
+   },
+   "F1:contested": {
+    "beta": -0.7802225402829682,
+    "se": 0.22896848082342516,
+    "p": 0.0006554785580572706
+   },
+   "converged": true,
+   "annotator_var": 118.10895648719396,
+   "residual_var": 624.5663607672823
+  },
+  "consistent_half_interactions": {
+   "woman": {
+    "beta": 5.9520449464583915,
+    "se": 3.077972376361473,
+    "p": 0.05314323904616895
+   },
+   "high_ed": {
+    "beta": -0.5623041204809048,
+    "se": 3.1097029194031145,
+    "p": 0.8565069360217179
+   },
+   "nonwhite": {
+    "beta": -0.35048308844407383,
+    "se": 3.314629768234512,
+    "p": 0.9157900463369515
+   },
+   "F1": {
+    "beta": 0.2549948267491019,
+    "se": 0.4499088683962974,
+    "p": 0.5708704893885046
+   },
+   "woman:contested": {
+    "beta": 5.536911292652467,
+    "se": 2.1834265307914635,
+    "p": 0.011216463095944701
+   },
+   "high_ed:contested": {
+    "beta": 1.8032158787811898,
+    "se": 2.2045216869978885,
+    "p": 0.4133786500100187
+   },
+   "nonwhite:contested": {
+    "beta": -3.8080457561321452,
+    "se": 2.3491573482840944,
+    "p": 0.10501200646494811
+   },
+   "F1:contested": {
+    "beta": -0.0861550383473434,
+    "se": 0.3194286651306945,
+    "p": 0.787378710620214
+   },
+   "converged": true
+  }
+ },
+ "agreement": {
+  "kripp_alpha_interval": 0.4130883766746921,
+  "kripp_alpha_ordinal": 0.4165957937565741,
+  "kripp_alpha_interval_contested": 0.16710716439099604,
+  "kripp_alpha_interval_uncontested": 0.5947793656345637,
+  "icc1_single_rater": 0.414713384795362,
+  "icc_k_mean_of_raters": 0.9858271474415131
+ }
+}
